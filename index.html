@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafio 1 - Intro.JavaScript</title>
+</head>
+<body>
+    <div class="card">
+        <!-- Imagen-->
+        <div class="img-card"></div>
+        <!-- Titulo-->
+        <h4>Laptop Gamer AMD</h4>
+        <!-- Input Cantidad-->
+        <div>
+            <input type="number" placeholder="Cantidad">
+        </div>
+        <!-- Input Color-->
+        <div>
+            <input type="text" placeholder="Color">
+        </div>
+        <p>Precio: $400.000</p>
+
+        <div class="card-botonera">
+            <button onclick="calcularTotal()">Calcular Total</button>
+        </div>
+    </div>
+
+    <div class="sectionTotal">
+        <p>Total : $ <span class="valortotal">0</span></p>
+        <p>Cantidad : <span class="cantidadtotal">0</span></p>
+
+        <div class="color">
+            <p>Color:</p>
+            <div></div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
